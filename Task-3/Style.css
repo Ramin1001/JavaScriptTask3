@@ -1,0 +1,48 @@
+.container .wraper{
+    margin: 30px auto;
+    border: 1px solid black;
+    box-sizing: border-box;
+    width: 370px;
+    height: 550px;
+    padding: 20px;
+}
+
+.cub-wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 320px;
+    width: 320px;
+    border: 1px solid black;
+    margin: 0px auto 60px;
+    border-style: inset;
+    padding: 2px;
+}
+
+.cub{
+    
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border: 1px solid grey;
+    border-style: outset;
+/*    background-color: white;*/
+}
+
+.selected{
+    width: 70px;
+    height: 70px;
+    margin: 3px;
+    border: 1px solid grey;
+    border-style: outset;
+}
+
+
+.container button{
+    padding: 4px 6px;
+    margin-bottom: 20px;
+}
+
+.timer{
+    display: block;
+}
